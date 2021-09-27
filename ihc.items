@@ -1,0 +1,85 @@
+Switch ihc_tryk1   {ihc=">0x565e"}
+
+Switch Lamp_Kontor  <light> {ihc="<0x565e",  autoupdate="true"}
+
+Switch ihc_tryk2   {ihc=">0x1045e"} 
+
+Switch Lamp_Spisebord  <light> {ihc="<0x1045e",  autoupdate="true"}
+
+Switch ihc_tryk3   {ihc=">0xfe5e"} 
+
+Switch Lamp_Kitchen  <light> {ihc="<0xfe5e",  autoupdate="true"}
+
+Switch ihc_tryk4   {ihc=">0xd65e"}
+
+Switch Lamp_stue  <light> {ihc="<0xd65e",  autoupdate="true"}
+
+Switch ihc_tryk5   {ihc=">0x1445e"} 
+
+Switch Lamp_Playrum  <light> {ihc="<0x1445e",  autoupdate="true"}
+
+Switch ihc_tryk6   {ihc=">0x1125e"}
+
+Switch Lamp_Mathias <light> {ihc="<0x1125e",  autoupdate="true"}
+
+Switch ihc_tryk7   {ihc=">0x12c5e"} 
+
+Switch Lamp_Melissa  <light> {ihc="<0x12c5e",  autoupdate="true"}
+
+Switch ihc_tryk8  {ihc=">0x1505e"}
+
+Switch Lamp_Badguest  <light> {ihc="<0x1505e",  autoupdate="true"}
+
+Switch ihc_tryk9  {ihc=">0x10c5e"} 
+
+Switch Lamp_Masterbed  <light> {ihc="<0x10c5e",  autoupdate="true"}
+
+Switch ihc_tryk10   {ihc=">0x1185e"}
+
+Switch Lamp_BadMaster <light> {ihc="<0x1185e",  autoupdate="true"}
+
+Switch ihc_tryk11   {ihc=">0x11e5e"}
+
+Switch Lamp_Bryggers <light> {ihc="<0x11e5ee",  autoupdate="true"}
+
+Switch ihc_tryk12   {ihc=">0x1265e"}
+
+Switch Lamp_Garage <light> {ihc="<0x1265e",  autoupdate="true"}
+
+Switch ihc_tryk13   {ihc=">0x13b5e"}
+
+Switch Lamp_Guest  <light> {ihc="<0x13b5e",  autoupdate="true"}
+
+Switch ihc_tryk14   {ihc=">0xe65e"}
+
+Switch Lamp_Entre <light> {ihc="<0xe65e",  autoupdate="true"}
+
+Switch ihc_tryk15   {ihc=">0x9375e"}
+
+Switch Lamp_Taresse <light> {ihc="<0x9375e",  autoupdate="true"}
+
+Switch ihc_tryk16   {ihc=">0x14a5e"}
+
+Switch Lamp_Walkin <light> {ihc="<0x14a5e",  autoupdate="true"}
+
+Switch ihc_tryk17   {ihc=">0x1355e"}
+
+Switch Lamp_front <light> {ihc="<0x1355e",  autoupdate="true"}
+
+Switch ihc_keepalive	""		{ihc=">[ON:0x505a:100]", autoupdate="false"}
+
+Switch ihc_powerfailure  {ihc="0x9ba5a"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
