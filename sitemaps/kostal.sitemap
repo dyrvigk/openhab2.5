@@ -1,0 +1,80 @@
+sitemap kostal label="Main Menu"  {
+ 	
+  Text item=kostal icon="garage" label="KOSTAL" {
+ 
+ 
+ 
+ 
+ 			   Frame {
+				Default   item=MyPlentiCore100WithBattery_DEVICE_LOCAL_WORKTIME icon="time"
+				Default   item=MyPlentiCore100WithBattery_SCB_EVENT_ERROR_COUNT_MC icon="error"
+				Default   item=MyPlentiCore100WithBattery_SCB_EVENT_ERROR_COUNT_SFH icon="error"
+				Default   item=MyPlentiCore100WithBattery_SCB_EVENT_ERROR_COUNT_SCB icon="error"
+				Default   item=MyPlentiCore100WithBattery_SCB_EVENT_WARNING_COUNT_SCB icon="error"
+                         
+				
+	                 }
+			Frame label="POWER" {
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_DC_POWER icon="solarpanel" 
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_HOMECONSUMPTION_FROM_BATTERY icon="battery"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_HOMECONSUMPTION_FROM_GRID  icon="electric"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_OWNCONSUMPTION icon="energy"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_HOMECONSUMPTION_FROM_PV icon="inverter"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_HOMECONSUMPTION_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_LOADING_CYCLES icon="battery"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_FULL_CHARGE_CAPACITY icon="battery"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_AMPERAGE icon="battery"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_POWER icon="battery"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_STATE_OF_CHARGE icon="battery"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_BATTERY_VOLTAGE icon="battery"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_1_CURRENT_AMPERAGE icon="ammeter"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_2_CURRENT_AMPERAGE icon="ammeter"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_3_CURRENT_AMPERAGE icon="ammeter"
+				Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_1_CURRENT_POWER icon="powermeter"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_2_CURRENT_POWER icon="powermeter"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_3_CURRENT_POWER icon="powermeter"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_1_CURRENT_VOLTAGE icon="voltmeter"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_2_CURRENT_VOLTAGE icon="voltmeter"
+                                Default item=MyPlentiCore100WithBattery_DEVICE_LOCAL_AC_PHASE_3_CURRENT_VOLTAGE icon="voltmeter"
+                                
+			}
+			Frame label="STATISTICS" {
+				Default item=MyPlentiCore100WithBattery_STATISTIC_AUTARKY_DAY icon="calendar"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_AUTARKY_MONTH icon="calendar"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_AUTARKY_TOTAL icon="calendar" 
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_AUTARKY_YEAR icon="calendar"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_CO2SAVING_DAY icon="carbondioxide"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_CO2SAVING_MONTH icon="carbondioxide"
+		                Default item=MyPlentiCore100WithBattery_STATISTIC_CO2SAVING_TOTAL icon="carbondioxide"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_CO2SAVING_YEAR icon="carbondioxide"
+				Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_MONTH icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_YEAR icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_BATTERIE_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_BATTERIE_MONTH icon="energy" 
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_BATTERIE_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_BATTERIE_YEAR icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_GRID_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_GRID_MONTH icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_GRID_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_GRID_YEAR icon="energy"
+			        Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_PV_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_PV_MONTH icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_PV_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_HOMECONSUMPTION_FROM_PV_YEAR icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_OWNCONSUMPTION_RATE_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_OWNCONSUMPTION_RATE_MONTH icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_OWNCONSUMPTION_RATE_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_OWNCONSUMPTION_RATE_YEAR icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_YIELD_DAY icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_YIELD_MONTH icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_YIELD_TOTAL icon="energy"
+                                Default item=MyPlentiCore100WithBattery_STATISTIC_YIELD_YEAR icon="energy"
+			
+                          
+                         
+                         }
+      
+    }
+}          

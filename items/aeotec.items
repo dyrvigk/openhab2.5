@@ -1,0 +1,27 @@
+Number  Aeotec4_Temperature "Aeotec4_Temperature [%2.2f C]" <temperature> (Aeotec4_Temperature) {channel="zway:zwayDevice:876002cf:4:sensorTemperature-ZWayVDev_zway_4-0-49-1"}
+Number  Aeotec4_Humidity "Aeotec4_Humidity [%2.2f %%]" <humidity> {channel="zway:zwayDevice:876002cf:4:sensorHumidity-ZWayVDev_zway_4-0-49-5"}
+Number  Aeotec4_Battery "Aeotec4_Battery [%2.2f %%]" <battery> {channel="zway:zwayDevice:876002cf:4:battery-ZWayVDev_zway_4-0-128"}
+Number  Aeotec4_Luminosity "Aeotec4_Luminosity [%2.2f lux]" <sun> {channel="zway:zwayDevice:876002cf:4:sensorLuminosity-ZWayVDev_zway_4-0-49-3"}
+Number  Aeotec4_Ultraviolet "Aeotec4_Ultraviolet [%2.2f Uv]" <sun_clouds> {channel="zway:zwayDevice:876002cf:4:sensorUltraviolet-ZWayVDev_zway_4-0-49-27"}
+Switch Aeotec4_PIR  <motion> {channel="zway:zwayDevice:876002cf:4:sensorMotion-ZWayVDev_zway_4-0-48-1",  autoupdate="true"}
+Switch Aeotec4_Tamper  <man_1> {channel="zway:zwayDevice:876002cf:4:sensorBinary-ZWayVDev_zway_4-0-113-7-3-A",  autoupdate="true"}
+Number  Aeotec2_Temperature "Aeotec2_Temperature [%2.2f C]" <temperature> (Aeotec2_Temperature) {channel="zway:zwayDevice:876002cf:5:sensorTemperature-ZWayVDev_zway_5-0-49-1"}
+Number  Aeotec2_Humidity "Aeotec2_Humidity [%2.2f %%]" <humidity> {channel="zway:zwayDevice:876002cf:5:sensorHumidity-ZWayVDev_zway_5-0-49-5"}
+Number  Aeotec2_Battery "Aeotec2_Battery [%2.2f %%]" <battery> {channel="zway:zwayDevice:876002cf:5:battery-ZWayVDev_zway_5-0-128"}
+Number  Aeotec2_Luminosity "Aeotec2_Luminosity [%2.2f lux]" <sun> {channel="zway:zwayDevice:876002cf:5:sensorLuminosity-ZWayVDev_zway_5-0-49-3"}
+Number  Aeotec2_Ultraviolet "Aeotec2_Ultraviolet [%2.2f Uv]" <sun_clouds> {channel="zway:zwayDevice:876002cf:5:sensorUltraviolet-ZWayVDev_zway_5-0-49-27"}
+Switch Aeotec2_PIR  <motion> {channel="zway:zwayDevice:876002cf:5:sensorMotion-ZWayVDev_zway_5-0-48-1",  autoupdate="true"}
+Switch Aeotec2_Tamper <man_1> {channel="zway:zwayDevice:876002cf:5:sensorBinary-ZWayVDev_zway_5-0-113-7-3-A",  autoupdate="true"}
+Number  Aeotec10_Temperature "Aeotec10_Temperature [%2.2f C]" <temperature> (Aeotec2_Temperature) {channel="zway:zwayDevice:876002cf:10:sensorTemperature-ZWayVDev_zway_10-0-49-1"}
+Number  Aeotec10_Humidity "Aeotec10_Humidity [%2.2f %%]" <humidity> {channel="zway:zwayDevice:876002cf:10:sensorHumidity-ZWayVDev_zway_10-0-49-5"}
+Number  Aeotec10_Battery "Aeotec10_Battery [%2.2f %%]" <battery> {channel="zway:zwayDevice:876002cf:10:battery-ZWayVDev_zway_10-0-128"}
+Number  Aeotec10_Luminosity "Aeotec10_Luminosity [%2.2f lux]" <sun> {channel="zway:zwayDevice:876002cf:10:sensorLuminosity-ZWayVDev_zway_10-0-49-3"}
+Number  Aeotec10_Ultraviolet "Aeotec10_Ultraviolet [%2.2f Uv]" <sun_clouds> {channel="zway:zwayDevice:876002cf:10:sensorUltraviolet-ZWayVDev_zway_10-0-49-27"}
+Switch Aeotec10_PIR  <motion> {channel="zway:zwayDevice:876002cf:10:sensorMotion-ZWayVDev_zway_10-0-48-1",  autoupdate="true"}
+Switch Aeotec10_Tamper <man_1> {channel="zway:zwayDevice:876002cf:10:sensorBinary-ZWayVDev_zway_10-0-113-7-3-A",  autoupdate="true"}
+Switch Switch_Alarm  <alarm> {channel="zway:zwayVirtualDevice:876002cf:SecurityZone_30:switchBinary-SecurityZone_30",  autoupdate="true"}
+Switch Sensative_MainDoor  <door> {channel="zway:zwayDevice:876002cf:6:sensorBinary-ZWayVDev_zway_6-0-113-6-Door-A",  autoupdate="true"}
+Switch Sensative_KitchenDoor  <door> {channel="zway:zwayDevice:876002cf:8:sensorBinary-ZWayVDev_zway_8-0-113-6-Door-A",  autoupdate="true"}
+Switch Sensative_LivingDoor   <door> {channel="zway:zwayDevice:876002cf:9:sensorBinary-ZWayVDev_zway_9-0-113-6-Door-A",  autoupdate="true"}
+Switch Switch_Sirene  <siren> {channel="zway:zwayDevice:876002cf:7:switchPowerOutlet-ZWayVDev_zway_7-0-37",  autoupdate="true"}
+Switch Switch_Notification  <siren> {channel="zway:zwayVirtualDevice:876002cf:NotificationPushsafer_28"}
